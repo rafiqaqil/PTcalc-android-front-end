@@ -1,34 +1,15 @@
-This is a template project for Android Studio that allows you to create an android webview application in minutes. You can use it to create a simple app for your website or as a starting point for your HTML5 based android app.
+# Android App front-end (Laravel-Backend) 
 
-### Getting started
+# Physiotheraphy-Calculator-System PTcalc for short. 
+PTcalc is a system for physiotherapists to keep track of their patients health score in various forumula integrations.  The system helps practitioners to apply the formula using a simplified system to enhance efficiency of their workflow.  PTCalc is developed using the Laravel Framework.  
 
-[Download](https://github.com/slymax/webview/archive/master.zip) or clone this repository and import it into Android Studio.
+Natively it is a web-based system made to be used on a browser to access.  The system applies health experts formulas using javascripts on the front-end.  While the backend will save the data for later references.  The data is saved on a databse for later use.  Some of the formula's are the famous 2-Minute-Walk-Distance and  6-Minute-Walk-Distance.  In which the Physiotherapist will be using repeatedly to all patients and multiple times for cosistency check.   
 
-### Using a remote source
+Attached is the user manual.
+https://github.com/rafiqaqil/Physiotheraphy-Calculator-System/blob/master/Step%20by%20step%20guide%20to%20use%20PTcalc.pdf
 
-If you want to create an app that displays the contents of a remote website
+PTcalc is now available on Google Playstore.
+https://play.google.com/store/apps/details?id=com.mirza.app
 
-1. uncomment lines **30** and **31** in `MainActivity.java` and replace `http://example.com` with your remote source
+![Screenshot](PTCALC.png)
 
-	```java
-	mWebView.loadUrl("http://example.com");
-	mWebView.setWebViewClient(new MyWebViewClient());
-	```
-
-2. open the `MyWebViewClient.java` file and replace `example.com` on line **12** with your custom hostname
-
-	```java
-	if (Uri.parse(url).getHost().endsWith("example.com")) {
-	```
-
-### Using a local source
-
-If you want to create a local HTML5 android app
-
-1. uncomment line **34** in `MainActivity.java`
-
-	```java
-	mWebView.loadUrl("file:///android_asset/index.html");
-	```
-
-2. put all your files (including your `index.html`) in the `assets` directory
