@@ -1,5 +1,5 @@
 # Android App front-end (Laravel-Backend) 
-
+This app is the made to be used as the front-end on android os for the ease of access for users.  The system communicates with the laravel backend system being the middle man for users to use this app natively on android smart phones. 
 # Physiotheraphy-Calculator-System PTcalc for short. 
 PTcalc is a system for physiotherapists to keep track of their patients health score in various forumula integrations.  The system helps practitioners to apply the formula using a simplified system to enhance efficiency of their workflow.  PTCalc is developed using the Laravel Framework.  
 
